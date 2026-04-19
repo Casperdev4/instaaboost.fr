@@ -39,65 +39,161 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "Les vues sont-elles comptabilisées par Instagram ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, toutes nos vues sont comptées par Instagram et apparaissent directement sur le compteur de votre vidéo ou Reel."
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Les vues sont-elles comptabilisées par Instagram ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, toutes nos vues sont comptées par Instagram et apparaissent directement sur le compteur de votre vidéo ou Reel."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quelle est la vitesse de livraison ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "La livraison est instantanée. Les vues commencent à apparaître dès la validation de votre commande."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Mon compte est-il en sécurité ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, aucun mot de passe n'est requis. Nous avons uniquement besoin du lien de votre vidéo Instagram. Votre compte reste totalement sécurisé."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les vues fonctionnent-elles sur les Reels et les vidéos ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, nos vues sont compatibles avec les Reels Instagram et les vidéos classiques. Il suffit de fournir le lien de votre contenu."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "InstaBoost",
+                "url": "https://instaaboost.fr",
+                "logo": "https://instaaboost.fr/logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "acheter des vues instagram",
+                                "url": "https://instaaboost.fr/acheter-des-vues-instagram.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "Quelle est la vitesse de livraison ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "La livraison est instantanée. Les vues commencent à apparaître dès la validation de votre commande."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Mon compte est-il en sécurité ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, aucun mot de passe n'est requis. Nous avons uniquement besoin du lien de votre vidéo Instagram. Votre compte reste totalement sécurisé."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Les vues fonctionnent-elles sur les Reels et les vidéos ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, nos vues sont compatibles avec les Reels Instagram et les vidéos classiques. Il suffit de fournir le lien de votre contenu."
-                }
+                "@type": "ItemList",
+                "name": "Offres",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "5 000 Vues",
+                            "description": "Pack 5 000 Vues.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "69",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "8 000 Vues",
+                            "description": "Pack 8 000 Vues.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "79",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "10 000 Vues",
+                            "description": "Pack 10 000 Vues.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "89",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 000 Vues",
+                            "description": "Pack 25 000 Vues.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "109",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 5,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 000 Vues",
+                            "description": "Pack 50 000 Vues.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "129",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 6,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 000 Vues",
+                            "description": "Pack 100 000 Vues.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "149",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    }
+                ]
             }
         ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "InstaBoost",
-        "url": "https://instaaboost.fr",
-        "logo": "https://instaaboost.fr/logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "acheter des vues instagram",
-                        "url": "https://instaaboost.fr/acheter-des-vues-instagram.html"
-                    }
-                }
-            ]
-        }
     }
     </script>
 </head>
