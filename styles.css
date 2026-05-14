@@ -5,7 +5,7 @@
     --dark: #262626;
     --light: #FAFAFA;
     --white: #ffffff;
-    --gray: #8e8e8e;
+    --gray: #5e5e5e;
     --gray-light: #DBDBDB;
     --gradient: linear-gradient(135deg, #F58529 0%, #DD2A7B 50%, #8134AF 100%);
     --gradient-alt: linear-gradient(135deg, #FCAF45 0%, #F77737 25%, #FD1D1D 50%, #E1306C 75%, #C13584 100%);
@@ -436,6 +436,12 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     margin-top: 60px;
+    align-items: stretch;
+}
+
+.steps.steps-4 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
 }
 
 .step {
@@ -445,6 +451,13 @@ img {
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+}
+
+.step > .btn {
+    margin-top: auto !important;
+    align-self: center;
 }
 
 .step:hover {
@@ -799,6 +812,10 @@ img {
         font-size: 39px;
     }
 
+    .steps.steps-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .pricing-cards {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -987,7 +1004,8 @@ img {
         font-size: 12px;
     }
 
-    .steps {
+    .steps,
+    .steps.steps-4 {
         grid-template-columns: 1fr;
     }
 
